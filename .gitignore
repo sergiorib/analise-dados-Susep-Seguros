@@ -1,0 +1,27 @@
+# Arquivos do Poetry
+poetry.lock
+#pyproject.toml
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+
+# Logs, bancos de dados SQLite temporários, etc.
+*.log
+*.sqlite3
+
+# Diretórios e Arquivos do Projeto
+ data/raw/
+
+# Artefatos do Git (já coberto por .git/, mas por segurança)
+.git/
+
+# Arquivos de checkpoint do Jupyter
+.ipynb_checkpoints/
+
+# Saídas internas geradas pelo Notebook (se existirem)
+.output/
