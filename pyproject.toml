@@ -1,17 +1,19 @@
 [project]
-name = "analise-seguros"
+name = "analise-dados-susep-seguros"
 version = "0.1.0"
-description = "Análise exploratória de dados usando Python e Jupyter"
+description = "Analise exploratoria de dados de seguros da SUSEP"
 authors = [
     {name = "Sergio Ribeiro",email = "sergiorcerqueira@gmail.com"}
 ]
+
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "numpy (>=2.3.4,<3.0.0)",
     "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.4,<3.0.0)",
     "charset-normalizer (>=3.4.4,<4.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)"
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
 ]
 
 
@@ -19,7 +21,5 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[dependency-groups]
-dev = [
-    "ipykernel (>=7.1.0,<8.0.0)"
-]
+[tool.poetry]
+package-mode = false

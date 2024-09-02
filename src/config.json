@@ -1,6 +1,0 @@
-{
-    "caminho_dados": "data/raw",
-    "arquivo_parametros": "eda.xlsx",
-    "formato_dados": "csv", 
-    "separador": ";"
-}
